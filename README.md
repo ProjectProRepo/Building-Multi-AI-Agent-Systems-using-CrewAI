@@ -28,15 +28,13 @@ This repository contains a multi-agent AI system that automates cybersecurity th
 
 ### Installation
 ```bash
-pip install 'crewai[tools]' langchain-groq exa_py
+!pip -qqq install pip --progress-bar off
+!pip -qqq install 'crewai[tools]'==0.28.8 --progress-bar off
+!pip -qqq install langchain-groq==0.1.3 --progress-bar off
+!pip -qqq install exa_py --progress-bar off
 ```
-
-### Run the System
-```bash
-python cybersecurity_ai.py
-```
-
-**Note:** Set up API keys for `GROQ_API_KEY` and `EXA_API_KEY` before running.
+=
+**Note:** Get your API keys for `GROQ_API_KEY` and `EXA_API_KEY` before running the colab notebook.
 
 ## Sample Output
 ```
